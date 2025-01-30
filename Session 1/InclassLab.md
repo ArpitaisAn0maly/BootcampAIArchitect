@@ -11,6 +11,7 @@ Create an Azure OpenAI resource with the following settings:
 - **Region**: `usgovarizona`
 - **Name**: A unique name of your choice
 - **Pricing tier**: `Standard S0`
+ 
 
 ## Step 3: Create an Azure AI Search Resource
 While the Azure OpenAI resource is being provisioned, create an Azure AI Search resource with the following settings:
@@ -72,6 +73,7 @@ You will deploy two AI models: a text embedding model and a GPT model.
 ## Step 8: Add Your Data
 1. Select **Chat** under **Playgrounds** in the left menu and choose your model deployment.
 2. In the **Chat playground**, select **Add your data** → **Add a data source**.
+   ![Azure OpenAI Studio Screenshot](/Session%201/AOAIStudio.png)
 3. In the pane that appears:
    - Select **Upload files (preview)** under *Select data source*.
    - Enable **Cross-origin resource sharing (CORS)** for your **Azure Blob Storage** if it is not already enabled.
@@ -82,5 +84,6 @@ You will deploy two AI models: a text embedding model and a GPT model.
    - Click **Next**.
 5. On the **Data management** pane:
    - Choose to enable **semantic search** or **vector search** for indexing.
+   ![Add your data](/Session%201/BYOD.png)     
 6. Review the details and click **Save and close**.
 7. Now, you can chat with the model, and it will use the uploaded data to construct responses.
