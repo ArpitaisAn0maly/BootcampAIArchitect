@@ -7,6 +7,13 @@ Open the repository in Microsoft Edge and use single sign-on:
 This will allow you to sign on github where you have access to your connected Organization such as Microsoft. If you dont have this connected then use this link to connect your org.
 Without this your codespace use will be limited.[connect Microsoft Org to your Github](https://repos.opensource.microsoft.com/link)
 
+## Create Resource for Responsible AI notice acceptance.
+we need to accept Responsible AI (RAI) notice by creating Azure AI service resource to avoid error during deployment.
+[Follow this to create a resource](https://github.com/microsoft/PubSec-Info-Assistant/blob/main/docs/knownissues.md#known-issues)
+
+## Create Azure OpenAI Resource
+we need to create AOAI resource before deployment. We will be using existing deployment of LLM for our deployment. This will ensure we dont run into any model availability or rate errors during deployment.
+
 ## Deployment Guide
 Follow the deployment guide instructions:
 [Deployment Guide](https://github.com/microsoft/PubSec-Info-Assistant/blob/main/docs/deployment/deployment.md)
